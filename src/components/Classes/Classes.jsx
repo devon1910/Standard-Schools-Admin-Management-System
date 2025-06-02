@@ -800,7 +800,7 @@ const Classes = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-semibold text-gray-800">Class Management</h1>
+        <h1 className="text-2xl font-semibold text-gray-800 mt-10">Class Management</h1>
         <button
           onClick={() => handleOpenModal()}
           className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"

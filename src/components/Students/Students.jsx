@@ -98,7 +98,7 @@ const Students = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-semibold text-gray-800">Student Management</h1>
+        <h1 className="text-2xl font-semibold text-gray-800 mt-10">Student Management</h1>
         <div className="flex space-x-4">
           <div className="relative">
             <input

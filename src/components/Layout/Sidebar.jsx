@@ -24,7 +24,7 @@ const Sidebar = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleMobileMenu}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-primary text-black"
+        className="lg:hidden fixed top-4 left-4 z-50 p-3 rounded-lg bg-primary text-black shadow-lg hover:bg-primary/90 transition-colors text-xl font-bold"
       >
         {isMobileMenuOpen ? '✕' : '☰'}
       </button>
@@ -43,7 +43,7 @@ const Sidebar = () => {
           ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
       >
         <div className="p-6">
-          <h1 className="text-2xl font-bold text-primary">School Admin</h1>
+          <h1 className="text-2xl font-bold text-primary mt-10">Admin</h1>
         </div>
         <nav className="mt-6">
           {menuItems.map((item) => (
